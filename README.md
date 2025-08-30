@@ -1,10 +1,10 @@
-# 🏥 Carnet de Patient - Application Next.js
+# Carnet de Patient - Application Next.js
 
 Une application de carnet de patient numérique développée avec Next.js 14+ pour digitaliser les visites et le suivi médical.
 
-> ⚠️ **Projet de démonstration** : Cette application utilise des données fictives à des fins éducatives.
+> ⚠️ Cette application utilise des données fictives à des fins éducatives.
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 ### Pages principales
 - **Page d'accueil (/)** : Bienvenue personnalisée, aperçu du dernier rendez-vous et recommandation santé du jour
@@ -13,16 +13,16 @@ Une application de carnet de patient numérique développée avec Next.js 14+ po
 - **Recommandations (/recommandations)** : Conseils santé par catégorie avec filtres
 
 ### Fonctionnalités techniques
-- ✅ Routes dynamiques Next.js
-- ✅ State management avec Context API
-- ✅ Composants réutilisables
-- ✅ Mock data via fichiers JSON
-- ✅ Design modulaire des pages
-- ✅ Dark mode toggle
-- ✅ Animations légères
-- ✅ Thème global responsive
+- Routes dynamiques Next.js
+- State management avec Context API
+- Composants réutilisables
+- Mock data via fichiers JSON
+- Design modulaire des pages
+- Dark mode toggle
+- Animations légères
+- Thème global responsive
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Framework** : Next.js 14+
 - **Styling** : Tailwind CSS
@@ -31,9 +31,8 @@ Une application de carnet de patient numérique développée avec Next.js 14+ po
 - **Language** : TypeScript
 - **State Management** : React Context API
 
-## 📁 Structure du projet
+## Structure du projet
 
-```
 carnet-patient/
 ├── pages/
 │   ├── index.tsx                 # Page d'accueil
@@ -62,7 +61,7 @@ carnet-patient/
     └── globals.css               # Styles globaux
 ```
 
-## 🎨 Design et UX
+## Design et UX
 
 - **Design moderne** avec Tailwind CSS
 - **Mode sombre** avec toggle automatique
@@ -72,7 +71,7 @@ carnet-patient/
 - **Filtres interactifs** avec compteurs
 - **États vides** avec messages informatifs
 
-## 📊 Données simulées
+## Données simulées
 
 L'application utilise des fichiers JSON pour simuler une API :
 
@@ -93,7 +92,7 @@ L'application utilise des fichiers JSON pour simuler une API :
 - Priorité (haute, moyenne, basse)
 - Icônes et descriptions
 
-## 🚀 Installation et lancement
+## Installation et lancement
 
 1. **Installer les dépendances** :
 ```bash
@@ -113,33 +112,15 @@ npm start
 
 L'application sera accessible sur `http://localhost:3000`
 
-## 🎯 Fonctionnalités avancées
-
-- **Filtrage intelligent** : Filtres combinés par catégorie et priorité
-- **Sections pliables** : Interface modulaire pour le dossier médical
-- **Thème adaptatif** : Détection automatique des préférences système
-- **Navigation contextuelle** : Mise en évidence de la page active
-- **Actions rapides** : Boutons d'action sur chaque page
-- **États de chargement** : Animations et transitions fluides
-
-## 📱 Responsive Design
+## Responsive Design
 
 - **Mobile First** : Optimisé pour les petits écrans
 - **Navigation adaptative** : Menu hamburger sur mobile
 - **Grilles flexibles** : Adaptation automatique du contenu
 - **Touch-friendly** : Boutons et zones de clic optimisés
 
-## 🔒 Sécurité et confidentialité
 
-⚠️ **Important** : Cette application est un prototype de démonstration utilisant des données fictives. Pour un usage réel, il faudrait implémenter :
-
-- Authentification et autorisation
-- Chiffrement des données sensibles
-- Conformité RGPD
-- Audit trails
-- Sauvegarde sécurisée
-
-## 🎨 Personnalisation
+## Personnalisation
 
 Le thème peut être personnalisé via `tailwind.config.js` :
 - Couleurs primaires et médicales
@@ -149,4 +130,4 @@ Le thème peut être personnalisé via `tailwind.config.js` :
 
 ---
 
-**Développé avec ❤️ pour la digitalisation du suivi médical**
+**Développé par Sara YOUSSEF pour la digitalisation du suivi médical**
