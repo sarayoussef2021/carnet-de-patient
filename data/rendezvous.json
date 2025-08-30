@@ -1,0 +1,66 @@
+{
+  "rendezvous": [
+    {
+      "id": 1,
+      "medecin": "Dr. Marie Dubois",
+      "specialite": "Médecin généraliste",
+      "date": "2024-09-15",
+      "heure": "14:30",
+      "lieu": "Cabinet médical - Paris",
+      "statut": "a_venir",
+      "type": "Consultation de routine",
+      "notes": "Contrôle annuel"
+    },
+    {
+      "id": 2,
+      "medecin": "Dr. Jean Martin",
+      "specialite": "Cardiologue",
+      "date": "2024-08-20",
+      "heure": "10:00",
+      "lieu": "Clinique du Cœur - Paris",
+      "statut": "passe",
+      "type": "Consultation spécialisée",
+      "notes": "Suivi post-opératoire"
+    },
+    {
+      "id": 3,
+      "medecin": "Dr. Sophie Laurent",
+      "specialite": "Dermatologue",
+      "date": "2024-07-10",
+      "heure": "16:15",
+      "lieu": "Centre dermatologique - Paris",
+      "statut": "passe",
+      "type": "Consultation dermatologique",
+      "notes": "Contrôle grains de beauté"
+    },
+    {
+      "id": 4,
+      "medecin": "Dr. Pierre Moreau",
+      "specialite": "Ophtalmologue",
+      "date": "2024-10-05",
+      "heure": "09:30",
+      "lieu": "Cabinet d'ophtalmologie - Paris",
+      "statut": "a_venir",
+      "type": "Examen de la vue",
+      "notes": "Contrôle annuel de la vision"
+    },
+    {
+      "id": 5,
+      "medecin": "Dr. Anne Petit",
+      "specialite": "Gynécologue",
+      "date": "2024-06-25",
+      "heure": "11:00",
+      "lieu": "Clinique des Femmes - Paris",
+      "statut": "passe",
+      "type": "Consultation gynécologique",
+      "notes": "Suivi de routine"
+    }
+  ],
+  "dernierRendezVous": {
+    "id": 2,
+    "medecin": "Dr. Jean Martin",
+    "specialite": "Cardiologue",
+    "date": "2024-08-20",
+    "type": "Consultation spécialisée"
+  }
+}

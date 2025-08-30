@@ -1,0 +1,106 @@
+{
+  "patient": {
+    "prenom": "Sara",
+    "nom": "YOUSSEF",
+    "dateNaissance": "YYYY-MM-JJ",
+    "numeroSecu": "1 85 03 75 123 456 78",
+    "groupeSanguin": "A+",
+    "medecinTraitant": "Dr. Jérôme HENNRI"
+  },
+  "antecedents": [
+    {
+      "id": 1,
+      "type": "Chirurgical",
+      "description": "Appendicectomie",
+      "date": "2010-06-15",
+      "medecin": "Dr. Louis VINCI"
+    },
+    {
+      "id": 2,
+      "type": "Médical",
+      "description": "Hypertension artérielle",
+      "date": "2020-01-10",
+      "medecin": "Dr. Jérôme HENNRI"
+    },
+    {
+      "id": 3,
+      "type": "Familial",
+      "description": "Diabète type 2 (père)",
+      "date": "Antécédent familial",
+      "medecin": "Information patient"
+    }
+  ],
+  "allergies": [
+    {
+      "id": 1,
+      "substance": "Pénicilline",
+      "type": "Médicamenteuse",
+      "severite": "Modérée",
+      "reaction": "Éruption cutanée",
+      "dateDecouverte": "2015-08-20"
+    },
+    {
+      "id": 2,
+      "substance": "Pollen de bouleau",
+      "type": "Environnementale",
+      "severite": "Légère",
+      "reaction": "Rhinite allergique",
+      "dateDecouverte": "2018-04-12"
+    }
+  ],
+  "traitements": [
+    {
+      "id": 1,
+      "medicament": "Lisinopril 10mg",
+      "posologie": "1 comprimé par jour",
+      "indication": "Hypertension artérielle",
+      "dateDebut": "2020-01-15",
+      "dateFin": null,
+      "medecin": "Dr. Jérôme HENNRI",
+      "statut": "En cours"
+    },
+    {
+      "id": 2,
+      "medicament": "Vitamine D3 1000 UI",
+      "posologie": "1 comprimé par jour",
+      "indication": "Carence en vitamine D",
+      "dateDebut": "2024-02-01",
+      "dateFin": "2024-08-01",
+      "medecin": "Dr. Jérôme HENNRI",
+      "statut": "Terminé"
+    },
+    {
+      "id": 3,
+      "medicament": "Cetirizine 10mg",
+      "posologie": "1 comprimé au besoin",
+      "indication": "Allergies saisonnières",
+      "dateDebut": "2024-03-15",
+      "dateFin": null,
+      "medecin": "Dr. Jérôme HENNRI",
+      "statut": "En cours"
+    }
+  ],
+  "vaccinations": [
+    {
+      "id": 1,
+      "vaccin": "COVID-19 (Pfizer)",
+      "date": "2023-10-15",
+      "rappel": "2024-10-15",
+      "lieu": "Pharmacie Centrale"
+    },
+    {
+      "id": 2,
+      "vaccin": "Grippe saisonnière",
+      "date": "2023-11-20",
+      "rappel": "2024-11-20",
+      "lieu": "Cabinet Dr. Dubois"
+    },
+    {
+      "id": 3,
+      "vaccin": "Tétanos-Diphtérie-Polio",
+      "date": "2019-05-10",
+      "rappel": "2029-05-10",
+      "lieu": "Centre de vaccination"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "recommandationDuJour": {
+    "id": 1,
+    "titre": "Hydratation quotidienne",
+    "description": "Buvez au moins 1,5L d'eau par jour pour maintenir une bonne hydratation",
+    "categorie": "Nutrition",
+    "icone": "💧"
+  },
+  "recommandations": [
+    {
+      "id": 1,
+      "titre": "Hydratation quotidienne",
+      "description": "Buvez au moins 1,5L d'eau par jour pour maintenir une bonne hydratation",
+      "categorie": "Nutrition",
+      "icone": "💧",
+      "priorite": "haute"
+    },
+    {
+      "id": 2,
+      "titre": "Activité physique régulière",
+      "description": "Pratiquez 30 minutes d'activité physique modérée par jour",
+      "categorie": "Activité physique",
+      "icone": "🏃‍♀️",
+      "priorite": "haute"
+    },
+    {
+      "id": 3,
+      "titre": "Sommeil réparateur",
+      "description": "Dormez entre 7 et 9 heures par nuit pour une récupération optimale",
+      "categorie": "Sommeil",
+      "icone": "😴",
+      "priorite": "haute"
+    },
+    {
+      "id": 4,
+      "titre": "Alimentation équilibrée",
+      "description": "Consommez 5 portions de fruits et légumes par jour",
+      "categorie": "Nutrition",
+      "icone": "🥗",
+      "priorite": "moyenne"
+    },
+    {
+      "id": 5,
+      "titre": "Marche quotidienne",
+      "description": "Effectuez au moins 8000 pas par jour pour maintenir votre forme",
+      "categorie": "Activité physique",
+      "icone": "🚶‍♀️",
+      "priorite": "moyenne"
+    },
+    {
+      "id": 6,
+      "titre": "Routine du coucher",
+      "description": "Établissez une routine relaxante 1h avant le coucher",
+      "categorie": "Sommeil",
+      "icone": "🌙",
+      "priorite": "moyenne"
+    },
+    {
+      "id": 7,
+      "titre": "Réduction du stress",
+      "description": "Pratiquez 10 minutes de méditation ou de respiration profonde",
+      "categorie": "Bien-être mental",
+      "icone": "🧘‍♀️",
+      "priorite": "moyenne"
+    },
+    {
+      "id": 8,
+      "titre": "Étirements matinaux",
+      "description": "Commencez votre journée par 5 minutes d'étirements",
+      "categorie": "Activité physique",
+      "icone": "🤸‍♀️",
+      "priorite": "basse"
+    },
+    {
+      "id": 9,
+      "titre": "Limitation des écrans",
+      "description": "Évitez les écrans 1h avant le coucher pour améliorer votre sommeil",
+      "categorie": "Sommeil",
+      "icone": "📱",
+      "priorite": "basse"
+    },
+    {
+      "id": 10,
+      "titre": "Collations saines",
+      "description": "Privilégiez les fruits secs et noix comme collations",
+      "categorie": "Nutrition",
+      "icone": "🥜",
+      "priorite": "basse"
+    }
+  ],
+  "categories": [
+    {
+      "nom": "Nutrition",
+      "couleur": "#10b981",
+      "icone": "🍎"
+    },
+    {
+      "nom": "Activité physique",
+      "couleur": "#3b82f6",
+      "icone": "💪"
+    },
+    {
+      "nom": "Sommeil",
+      "couleur": "#8b5cf6",
+      "icone": "🌙"
+    },
+    {
+      "nom": "Bien-être mental",
+      "couleur": "#f59e0b",
+      "icone": "🧠"
+    }
+  ]
+}
